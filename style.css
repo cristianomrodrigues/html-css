@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+h1,h2 {
+    font-family: sans-serif;
+    color: blue;
+}
+
+p {
+    font-size: 18px;
+}

@@ -1,0 +1,33 @@
+<!-- uso de ul e ol, criação de listas !-->
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Minha terceira atividade</title>
+    <link rel="stylesheet" href="style.css">
+    </link>
+</head>
+
+<body>
+    <h1>Media - fotos</h1>
+    <p>testes para midias em diferentes tamanhos de tela em html 5</p>
+    <picture>
+        <source media="(max-width:550px)" srcset="images/caixa-s300.jpg" type="image/png">
+        <source media="(max-width: 1050px)" srcset="images/caixa-s700.jpg" type="image/png">
+        <img src="images/caixa-s1000.jpg" alt="caixa de presente">
+    </picture>
+    <h1>Media - audio</h1>
+    <p>teste de audio em html 5</p>
+    <audio src="/media/MarkvardRelax.mp3" type="audio/mpeg" preload="auto" controls autoplay></audio>
+    <!--
+    <audio>
+        <source src="media/MarkvardRelax.mp3" type="audio/mpeg">
+    </audio>
+    -->
+
+</body>
+
+</html>
